@@ -4,6 +4,11 @@ body{
     background-attachment: fixed;
     background-position: top right;
 }
+.body-right{
+    width: 400px;
+    text-align: right;
+    
+}
 
 .div-position{
     width: 200px;
