@@ -1,0 +1,47 @@
+body{
+    /* background-image: url("/Users/abhikr/Documents/orbus_classes/class3/download1.jpeg"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+.div-position{
+    width: 200px;
+    height: 220px;
+    border: 1px solid #000;
+    background-color: antiquewhite;
+    position: sticky;
+    left:50px;
+    top:60px;
+}
+
+.div1{
+    /* background-color: rgb(237, 196, 34); */
+    width: 300px;
+    height: 300px;
+    float: left ;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.uppper-case{
+    text-transform: uppercase;
+    /* text-align: center;
+    overflow-y: scroll; */
+}
+.lower-case{
+    text-transform: lowercase;
+
+}
+
+.sentence-case{
+    text-transform:capitalize;
+    text-align: center;
+}
+
+.my-para{
+    text-align: justify;
+    overflow-y: scroll;
+    height: 180px;
+}
