@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,27 @@
   <!-- You can link your CSS file here -->
   <link rel="stylesheet" href="first.css">
 </head>
-<body>
-    <div id="first_div" class="my-div">
 
-    </div>
-    <button id="my_btn" onclick = "appendData()">Click me</button>
-   <script src="first.js"></script>
+<body onload="bodyLoad()">
+  <div id="first_div" class="my-div" onmouseover="someAnimation(true)" onmouseout="someAnimation(false)">
+    Div!
+  </div>
+  <div id="second-div" class="my-div">
+    Div2!
+  </div>
+
+  <button id="my_btn" onclick="appendData()">Div1</button>
+  <button id="my_btn" onclick="divdata2()">Div2</button>
+  <br/><br/>
+  <div>
+    <form onsubmit="frmSubmit(event)">
+        <input type="text" id="my_txtbox" onkeyup="captureTxt(this)" />
+        <input type="submit" value="Submit" />
+      </form>
+  </div>
+
+  <script src="first.js"></script>
 
 </body>
+
 </html>
