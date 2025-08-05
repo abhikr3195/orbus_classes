@@ -36,7 +36,7 @@ function ArrayOfObj(){
         html += "<div class='flex-item'>";
         html += "<h3>"+prod.prodName+"</h3>";
         html += "<br />";
-        html += "Price:"+prod.prodPrice;
+        html += "Price:"+prod.ProdPrice;
         html += "</div>";
     }
     document.getElementById("container").innerHTML = html;
